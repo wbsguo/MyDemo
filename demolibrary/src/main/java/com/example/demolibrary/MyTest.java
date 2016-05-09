@@ -7,6 +7,6 @@ import android.util.Log;
  */
 public class MyTest {
     public void test(){
-        Log.e("women","trest");
+        Log.e("women","trefffffst");
     }
 }
