@@ -43,7 +43,7 @@ public class ListViewTestActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.button1, R.id.button2,R.id.button3,R.id.button4})
+    @OnClick({R.id.button1, R.id.button2,R.id.button3,R.id.button4,R.id.button5})
     public void onClick(View view) {
         Intent intent = null;
         switch (view.getId()) {
@@ -61,6 +61,10 @@ public class ListViewTestActivity extends BaseActivity {
                 break;
             case R.id.button4:
                 intent = new Intent(ListViewTestActivity.this, RefreshActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.button5:
+                intent = new Intent(ListViewTestActivity.this, SortListViewMainActivity.class);
                 startActivity(intent);
                 break;
         }

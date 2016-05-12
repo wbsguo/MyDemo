@@ -22,6 +22,7 @@
         <activity android:name=".activity.list.RefreshListActivity"/>
         <activity android:name=".activity.list.RefreshScrolloListViewActivity"/>
         <activity android:name=".activity.list.RefreshActivity"/>
+        <activity android:name=".activity.list.SortListViewMainActivity"/>
     </application>
 
 </manifest>

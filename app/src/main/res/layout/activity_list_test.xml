@@ -35,6 +35,12 @@
                 android:layout_height="wrap_content"
                 android:text="上拉刷新"
                 />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录排序"
+                />
         </LinearLayout>
 
     </ScrollView>
