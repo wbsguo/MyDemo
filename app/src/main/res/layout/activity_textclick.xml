@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你好我们嗯就斤斤计较斤斤计较斤斤计较斤斤计较经济斤斤计较斤斤计较得到的点点滴滴点点滴滴
+        地地道道地地道道的多滴滴答答滴滴答答滴滴答答的是生生世世生生世世生生世世生生世世呃呃呃呃呃呃呃呃呃呃的是事实
+        滴滴答答滴滴答答滴滴答答"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="你好我们嗯就斤斤计较斤斤计较斤斤计较斤斤计较经济斤斤计较斤斤计较得到的点点滴滴点点滴滴
+        地地道道地地道道的多滴滴答答滴滴答答滴滴答答的是生生世世生生世世生生世世生生世世呃呃呃呃呃呃呃呃呃呃的是事实
+        滴滴答答滴滴答答滴滴答答"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+</LinearLayout>

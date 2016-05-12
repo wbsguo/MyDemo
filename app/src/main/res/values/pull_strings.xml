@@ -1,0 +1,8 @@
+<resources>
+    <string name="refresh_release">松开后加载</string>
+    <string name="refresh_pull">上拉加载更多</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_footlading">加载中...</string>
+    <string name="refresh_text">松开即刷新</string>
+    <string name="refresh_foottext">上拉加载更多</string>
+</resources>
