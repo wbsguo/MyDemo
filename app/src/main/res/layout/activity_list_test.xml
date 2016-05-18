@@ -41,6 +41,18 @@
                 android:layout_height="wrap_content"
                 android:text="通讯录排序"
                 />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="瀑布流列表"
+                />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="瀑布流列表2"
+                />
         </LinearLayout>
 
     </ScrollView>

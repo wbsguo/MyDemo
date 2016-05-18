@@ -24,6 +24,12 @@ public class ListViewTestActivity extends BaseActivity {
     Button button3;
     @Bind(R.id.button4)
     Button button4;
+    @Bind(R.id.button5)
+    Button button5;
+    @Bind(R.id.button6)
+    Button button6;
+    @Bind(R.id.button7)
+    Button button7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +49,7 @@ public class ListViewTestActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.button1, R.id.button2,R.id.button3,R.id.button4,R.id.button5})
+    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6})
     public void onClick(View view) {
         Intent intent = null;
         switch (view.getId()) {
@@ -67,6 +73,16 @@ public class ListViewTestActivity extends BaseActivity {
                 intent = new Intent(ListViewTestActivity.this, SortListViewMainActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.button6:
+                intent = new Intent(ListViewTestActivity.this, WatefallListActivity.class);
+                startActivity(intent);
+                break;
         }
+    }
+
+    @OnClick(R.id.button7)
+    public void onClick() {
+        Intent intent = new Intent(ListViewTestActivity.this, staggeredGridViewActivity.class);
+        startActivity(intent);
     }
 }
