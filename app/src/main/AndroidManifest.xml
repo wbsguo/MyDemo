@@ -26,6 +26,7 @@
         <activity android:name=".activity.list.SortListViewMainActivity"/>
         <activity android:name=".activity.list.WatefallListActivity"/>
         <activity android:name=".activity.list.staggeredGridViewActivity"/>
+        <activity android:name=".activity.list.DynGridViewActivity"/>
     </application>
 
 </manifest>

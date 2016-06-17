@@ -53,6 +53,12 @@
                 android:layout_height="wrap_content"
                 android:text="瀑布流列表2"
                 />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动态改变gridview列数"
+                />
         </LinearLayout>
 
     </ScrollView>
