@@ -1,22 +1,21 @@
-package com.example.administrator.myapplication.activity;
+package com.example.administrator.myapplication.activity.myview;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.administrator.myapplication.R;
-import com.example.administrator.myapplication.activity.list.ListViewTestActivity;
-import com.example.administrator.myapplication.activity.myview.MyCustomViewActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * Created by wangbs on 16/5/12.
+ * Created by wangbs on 16/6/21.
  */
-public class MainActivity extends BaseActivity {
+public class MyCustomViewActivity extends Activity {
     @Bind(R.id.button1)
     Button button1;
     @Bind(R.id.button2)
@@ -25,25 +24,20 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_custom_view);
         ButterKnife.bind(this);
     }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        ButterKnife.unbind(this);
-    }
 
-    @OnClick({R.id.button1,R.id.button2})
+    @OnClick({R.id.button1, R.id.button2})
     public void onClick(View view) {
         Intent intent = null;
         switch (view.getId()) {
             case R.id.button1:
-                intent = new Intent(MainActivity.this, ListViewTestActivity.class);
+                intent = new Intent(MyCustomViewActivity.this, MyViewActivity.class);
                 startActivity(intent);
                 break;
             case R.id.button2:
-                intent = new Intent(MainActivity.this, MyCustomViewActivity.class);
+                intent = new Intent(MyCustomViewActivity.this, MorePositionActivity.class);
                 startActivity(intent);
                 break;
         }

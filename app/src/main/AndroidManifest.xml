@@ -27,6 +27,9 @@
         <activity android:name=".activity.list.WatefallListActivity"/>
         <activity android:name=".activity.list.staggeredGridViewActivity"/>
         <activity android:name=".activity.list.DynGridViewActivity"/>
+        <activity android:name=".activity.myview.MyCustomViewActivity"/>
+        <activity android:name=".activity.myview.MyViewActivity"/>
+        <activity android:name=".activity.myview.MorePositionActivity"/>
     </application>
 
 </manifest>

@@ -20,13 +20,13 @@
                     android:id="@+id/button1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="listview"
+                    android:text="自定义绘制多屏"
                     />
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="自定义绘图"
+                    android:text="多触点的绘图"
                     />
             </LinearLayout>
 
