@@ -3,8 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <com.example.administrator.myapplication.courview.customview.MorePositionView
-        android:id="@+id/more_position_view"
+    <!--fillViewport填满布局-->
+    <ScrollView
+        android:id="@+id/srcoll_test"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+    </ScrollView>
 </LinearLayout>

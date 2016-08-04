@@ -38,7 +38,7 @@ public class RefreshActivity extends Activity implements
             videoDetailBeans.add(videoDetailBean);
         }
         adapter=new SearchVideosAdapter(this, videoDetailBeans);
-        heardView();
+//        heardView();
         listview.setAdapter(adapter);
     }
     private View heardView;

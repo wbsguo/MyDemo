@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <com.example.administrator.myapplication.courview.customview.MorePositionView
-        android:id="@+id/more_position_view"
+    <com.example.administrator.myapplication.courview.customview.MyScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

@@ -11,14 +11,14 @@ import com.example.administrator.myapplication.R;
 /**
  * Created by wangbs on 16/6/21.
  */
-public class MyViewActivity extends Activity{
-    private static final String TAG="MyViewActivity";
+public class MoreScreenActivity extends Activity{
+    private static final String TAG="MoreScreenActivity";
     private LinearLayout add_view;
     private int scrrenWidth,scrrenHeight;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_myview);
+        setContentView(R.layout.activity_more_screen);
         findView();
         init();
         addView();
@@ -32,7 +32,7 @@ public class MyViewActivity extends Activity{
         add_view=(LinearLayout)findViewById(R.id.add_view);
     }
     private void addView(){
-        for(int i=0;i<3;i++){
+        for(int i=0;i<1;i++){
             childView(i);
         }
     }
@@ -40,7 +40,7 @@ public class MyViewActivity extends Activity{
         View childView = getLayoutInflater().inflate(R.layout.childview_item, null);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT
                 , LinearLayout.LayoutParams.MATCH_PARENT);
-        params.width=scrrenWidth;
+        params.width=scrrenWidth*10;
         params.height=scrrenHeight;
         add_view.addView(childView, i,params);
     }

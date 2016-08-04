@@ -28,6 +28,24 @@
                     android:layout_height="wrap_content"
                     android:text="多触点的绘图"
                     />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自定义view滑动"
+                    />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一个绘图测试"
+                    />
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="绘制的字体的各种度量值"
+                    />
             </LinearLayout>
 
         </ScrollView>

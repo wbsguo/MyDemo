@@ -11,7 +11,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.MainActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,8 +29,15 @@
         <activity android:name=".activity.list.staggeredGridViewActivity"/>
         <activity android:name=".activity.list.DynGridViewActivity"/>
         <activity android:name=".activity.myview.MyCustomViewActivity"/>
-        <activity android:name=".activity.myview.MyViewActivity"/>
+        <activity android:name=".activity.myview.MoreScreenActivity"/>
         <activity android:name=".activity.myview.MorePositionActivity"/>
+        <activity android:name=".activity.myview.MyScrollViewActivity"/>
+        <activity android:name=".activity.myview.MyDrawTestActivity"/>
+        <activity android:name=".activity.myview.MyTextActivity"/>
+        <activity android:name=".activity.sys.SysTestActivity"/>
+        <activity android:name=".activity.sys.ScrlooTestActivity"/>
+        <activity android:name=".activity.effert.WheelViewActivity"/>
+        <activity android:name=".activity.effert.EffertActivity"/>
     </application>
 
 </manifest>

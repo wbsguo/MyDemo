@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <com.example.administrator.myapplication.courview.customview.CaloriesWeekGraph
+    <com.example.administrator.myapplication.courview.customview.MoreScreenView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
