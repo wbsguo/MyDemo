@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search_content"
+        style="@style/edittext_style"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/cancel"
+        android:hint="pokemon_search_hint"
+        android:maxLines="1"
+        android:paddingLeft="35dp"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/icon_searchmark" />
+
+    <TextView
+        android:id="@+id/del_content"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="88dp"
+        android:background="@mipmap/icon_search_delete"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/white_5_radius_arc"
+        android:gravity="center"
+        android:text="cancel"
+        android:textColor="#248696"
+        android:textSize="12.0sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

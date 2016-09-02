@@ -3,10 +3,10 @@ package com.example.administrator.myapplication.activity.effert;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import com.example.administrator.myapplication.R;
-import com.example.administrator.myapplication.activity.MainActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -18,6 +18,8 @@ import butterknife.OnClick;
 public class EffertActivity extends Activity {
     @Bind(R.id.button1)
     Button button1;
+    @Bind(R.id.button2)
+    Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +28,18 @@ public class EffertActivity extends Activity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.button1)
-    public void onClick() {
-        Intent intent = new Intent(EffertActivity.this, WheelViewActivity.class);
-        startActivity(intent);
+    @OnClick({R.id.button1, R.id.button2})
+    public void onClick(View view) {
+        Intent intent=null;
+        switch (view.getId()) {
+            case R.id.button1:
+                intent=new Intent(EffertActivity.this,WheelViewActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.button2:
+                intent=new Intent(EffertActivity.this,SearchActivity.class);
+                startActivity(intent);
+                break;
+        }
     }
 }

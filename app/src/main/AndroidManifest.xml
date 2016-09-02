@@ -38,6 +38,7 @@
         <activity android:name=".activity.sys.ScrlooTestActivity"/>
         <activity android:name=".activity.effert.WheelViewActivity"/>
         <activity android:name=".activity.effert.EffertActivity"/>
+        <activity android:name=".activity.effert.SearchActivity"/>
     </application>
 
 </manifest>
